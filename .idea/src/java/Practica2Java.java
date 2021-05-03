@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Practica2Java {
@@ -72,44 +73,49 @@ public class Practica2Java {
                 break;
 
 
-
         }
-        }
+    }
 
 
     public static void metodo1() {
-        String letras [] = new String[5];
+        String letras[] = new String[5];
         Scanner sc = new Scanner(System.in);
         String palabraInsertada;
         for (int i = 0; i < 5; i++) {
-            System.out.println("Inserta la palabra número" +(i));
-            palabraInsertada = sc.nextLine();
-            letras[i]=palabraInsertada;
-            System.out.println(letras);
+            System.out.println("Inserta la palabra número" + (i + 1));
+            letras[i] = sc.nextLine();
         }
-        System.out.println(letras);
+        System.out.println("Las cinco palabras introducidas són: " + Arrays.toString(letras));
     }
+
     public static void metodo2() {
         System.out.println("Has elegido el Método 2");
     }
+
     public static void metodo3() {
         System.out.println("Has elegido el Método 3");
     }
+
     public static void metodo4() {
         System.out.println("Has elegido el Método 4");
     }
+
     public static void metodo5() {
         System.out.println("Has elegido el Método 5");
     }
+
     public static void metodo6() {
         System.out.println("Has elegido el Método 6");
     }
+
     public static void metodo7() {
         System.out.println("Has elegido el Método 7");
     }
+
     public static void metodo8() {
         System.out.println("Has elegido el Método 8");
     }
+
     public static void metodo9() {
         System.out.println("Has elegido el Método 9");
     }
